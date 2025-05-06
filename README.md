@@ -56,7 +56,7 @@ make
 ./GenerateInput ../tmp/input.bin 1000
 
 # Отсортировать
-./TapeSorted ../tmp/input.bin ../tmp/output.bin 100
+./TapeSorted ../tmp/input.bin ../tmp/output.bin
 
 # Проверить
 ./CheckSorted ../tmp/output.bin
