@@ -25,11 +25,12 @@
 ├── external/
 │   └── googletests    # Сабмодуль Google Tests 
 CMakeLists.txt
-ITape.hpp
-FileTape.hpp
+ITape.hpp              # Интерфейс
+FileTape.hpp            
 FileTape.cpp
 ExternalTapeSorter.hpp
 ExternalTapeSorter.cpp
+main.cpp
 ├── tests/
 │   ├── tests_tape.cpp  # Тесты (Google Tests подключены сабмодулем)
 │   └── tests_sort.cpp
