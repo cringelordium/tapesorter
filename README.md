@@ -45,6 +45,7 @@ manual_test.sh          # Скрипт ручного тестирования (
 1. **Сборка:**
 
 ```bash
+rm -rf build
 mkdir build && cd build
 cmake ..
 make
