@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/TapeSorter.dir/main.cpp.o CMakeFiles/TapeSorter.dir/FileTape.cpp.o CMakeFiles/TapeSorter.dir/ExternalTapeSorter.cpp.o -o TapeSorter 
