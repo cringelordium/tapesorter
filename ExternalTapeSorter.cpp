@@ -37,7 +37,7 @@ void ExternalTapeSorter::sort(ITape& input, ITape& output, size_t memoryLimit) {
         tempFiles.push_back(tempFile);
     }
 
-    // 2. Слияние чанков
+    // слияние чанков
     std::vector<std::ifstream> streams;
     std::vector<int32_t> values;
     std::vector<bool> ended;
